@@ -84,7 +84,7 @@ let info = readLine()!
 do {
   let input = Int(info) ?? 0
   if input == 0 {
-    print("Input was not an int.")
+    print("Input was not valid, must be a positive integer.")
   } else {
     let upper = HourGlass()
     let lower = HourGlass()
